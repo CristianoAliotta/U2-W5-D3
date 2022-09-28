@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(79, 79, 79);
+}
+header {
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+}
+#show {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rari {
+  height: 100%;
+  width: 100%;
+}
+button {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 0;
+  font-size: 14px;
+  color: #000000;
+  background: linear-gradient(90deg, #fad201 0%, #c4151c 100%);
+  padding: 2px 20px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 22px 50px;
+}
+
+button:hover {
+  padding: 4px 22px;
+  background: linear-gradient(90deg, #fad201 0%, #c4151c 100%);
+  color: #000000;
+  border: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+  height: 6vh;
+  margin-bottom: 20px;
+}
+.animations {
+  animation-name: scale;
+  animation-duration: 1.8s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
