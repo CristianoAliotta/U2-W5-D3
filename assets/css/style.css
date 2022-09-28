@@ -38,7 +38,7 @@ button {
   font-weight: 0;
   font-size: 14px;
   color: #000000;
-  background: linear-gradient(90deg, #fad201 0%, #c4151c 100%);
+  background: #fad201;
   padding: 2px 20px;
   border: none;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
@@ -47,7 +47,7 @@ button {
 
 button:hover {
   padding: 4px 22px;
-  background: linear-gradient(90deg, #fad201 0%, #c4151c 100%);
+  background: #fad201;
   color: #000000;
   border: none;
 }

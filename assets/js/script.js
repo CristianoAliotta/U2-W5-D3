@@ -17,7 +17,7 @@ function startCarousel() {
     if (i == carousel.length) {
       i = 0;
     }
-  }, 3000);
+  }, 2000);
 }
 function stopCarousel() {
   clearInterval(interval);
